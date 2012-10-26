@@ -138,7 +138,7 @@
 		     
       	<p>
 		<?php 
-			$is_problematic_browser_error = check_browser();
+			$is_problematic_browser_error = check_browser_en();
 			if($is_problematic_browser_error == false) { 
 		?>
 		</p>
@@ -223,7 +223,7 @@
 	   Other eID-LV test sites for developers:<br>
 	   <a href="http://eidtstapa.pmlp.gov.lv">eID-LV Authentication integration example on Apache</a><br>
 	   <a href="http://eidtsttom.pmlp.gov.lv">eID-LV Authentication integration example on Apache Tomcat</a><br><br>
-	   Programmatūras kods, kas tiek izmantots šajā un citās integrācijas piemēru lapās ir pieejams GitHub vietnē šeit: <a href="https://github.com/eID-LV">https://github.com/eID-LV</a><br>
+	   Application source code available at GitHub repository here: <a href="https://github.com/eID-LV">https://github.com/eID-LV</a><br>
 	   Documentation of eID-LV integration examples are available here: <br>
 	   -  <a href="http://eidtstapa.pmlp.gov.lv/eID_Apache_en.pdf">Documentation of integration example on Apache webserver</a>;<br>
 	   -  <a href="http://eidtstapa.pmlp.gov.lv/eID_IIS_en.pdf">Documentation of integration example on Microsoft IIS webserver</a>;<br>
